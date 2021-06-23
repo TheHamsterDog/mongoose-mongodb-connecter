@@ -1,0 +1,14 @@
+{
+  "name": "mongoose-mongodb-connecter",
+  "version": "1.0.0",
+  "description": "It's a nodejs module that lets you connect to mongodb really quick, so that you don't have to worry about depreciations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.12.14"
+  }
+}

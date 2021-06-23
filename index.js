@@ -9,5 +9,4 @@ const connect = async (uri)=>{
         console.log(`Can't connect to the mongoose server: ${err.message}`);
     }
 }
-export default connect;
 module.exports = connect;

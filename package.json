@@ -1,7 +1,7 @@
 {
   "name": "mongoose-mongodb-connecter",
-  "version": "1.0.0",
-  "description": "It's a nodejs module that lets you connect to mongodb really quick, so that you don't have to worry about depreciation(s)",
+  "version": "1.0.2",
+  "description": "It's a nodeJS module that lets you connect to mongoDB without having to worry about depreciation(s)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

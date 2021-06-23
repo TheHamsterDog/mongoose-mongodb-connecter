@@ -1,6 +1,6 @@
 {
   "name": "mongoose-mongodb-connecter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "It's a nodeJS module that lets you connect to mongoDB without having to worry about depreciation(s)",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^5.12.14"
+  },
+  "repository": {
+    "url": "https://github.com/TheHamsterDog/mongoose-mongodb-connecter"
   }
 }

@@ -7,11 +7,12 @@ You just have to simply import it into your nodejs app like this:
 ```
 const connectDB = require("mongoose-mongodb-connecter");
 ```
-After importing it, you just have to call it by passing the uri to your mongoDB database, as an argument, like this:
+After importing it, you just have to call it by passing your mongoose instance and the uri to your mongoDB database, as an argument, like this:
 
 ```
+const mongoose = require("mongoose");
 const dbURI = config.get("dbURI");
-connectDB(dbURI)
+connectDB(mongoose, dbURI)
 
 ```
 ## Links

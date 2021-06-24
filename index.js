@@ -1,6 +1,4 @@
-const mongoose = require('mongoose');
-
-const connect = async (uri)=>{
+const connect = async (mongoose, uri)=>{
     try{
         const connection = await mongoose.connect(uri, {useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true});
         console.log("Successfully connected to the database!!!");

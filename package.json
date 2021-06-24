@@ -1,6 +1,6 @@
 {
   "name": "mongoose-mongodb-connecter",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "It's a nodeJS module that lets you connect to mongoDB without having to worry about depreciation(s)",
   "main": "index.js",
   "scripts": {
